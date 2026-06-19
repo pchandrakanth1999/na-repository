@@ -1,0 +1,52 @@
+1. Count employees department-wise
+
+2. Count employees city-wise
+
+3. Find average salary by department
+
+4. Find maximum salary in each department
+
+5. Find employees joined after '2023-01-01'
+
+6. Extract joining year from join_date
+
+7. Create email using emp_id+firstname + '@cc.com'
+
+8. Create salary category using CASE:
+   salary > 100000 → High
+   salary between 50000 and 100000 → Medium
+   otherwise → Low
+
+9. Find departments having more than 4 employees
+
+10. Find cities where average salary > 60000
+
+11. Replace NULL salary with 0 using SQL
+
+12. Create employee code:
+    first 3 letters of first_name + emp_id
+
+13. Find cities having more than 3 employees excluding NULL cities
+
+14. Find employees joined in year 2024
+
+15. Find employee count and average salary together department-wise
+
+16. Create age buckets using CASE:
+    <30 → Young
+    30–40 → Mid
+
+    > 40 → Senior
+
+17. Extract domain from email column
+
+18. Find departments whose average salary is greater than overall average salary
+
+19. Create username:
+    first 3 letters of first_name + joining year
+
+20. Find department-wise:
+    employee count
+    max salary
+    min salary
+    avg salary
