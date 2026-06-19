@@ -1,0 +1,620 @@
+1)some sources collection customer information parquet files and json files. Want load data into bronze layer in same table. how to implement?
+2)I will convert it how I need to convert the binary to in the text format.
+3)In that one example, this file having the times stamp will it work?
+4)gold layer in databricks
+5)Can you give me the table details that OK which is being the bronze layer which is being the which is being the gold layer?
+Can you give one on table name in myntra project?
+6)Tkinter in databricks notebook
+7)My name is Subramaniam. OK. I want to search a part in of this test, for example Subra.OK, in Python how you have to be find out this one.
+8)images input and out put == =
+input
+ouput:
+if user has played more than 2 sports it should return second highest 
+user has played only 1 sport it should return only that using sql using above images
+9)So suppose I want to so I have updated that table but later I got to know that that operation should not be there so I want to restore the previous version of data so is this possible and how you will do that can you write that query in pyspark and sql
+10)input 
+
+1	Alice	["Python", "SQL"]
+2	Bob	["Java", "Scala", "SQL"]
+3	Charlie	["Python"]
+
+
+output
+
+1	Alice	Python
+1	Alice	SQL
+2	Bob	java
+2	Bob	SQL
+2	Bob	scala
+3	Charlie	python
+
+
+This allies is having Python And SQL. Bobby is having Java, Scala and SQL and Charlie is having Python. OK so I want this Python SQL in in different row.
+11)auto loader in databricks
+12)user_id	login_date
+1	2023-01-01
+1	2023-01-02
+1	2023-01-03
+2	2023-01-01
+2	2023-01-03
+3	2023-01-01
+3	2023-01-02
+3	2023-01-03
+3	2023-01-04
+4	2023-01-01
+4	2023-01-02
+4	2023-01-04
+5	2023-01-01
+5	2023-01-02
+5	2023-01-03
+5	2023-01-04
+How do you find users who logged in on three consecutive days using sql?  
+You want to find users who have logged in on three consecutive days — and yes, we can solve this using SQL!
+13)We are still now in the process like no, you're Azure event up kept the filing adls sent OK then our ADF come into picture OK.
+So the ADF.The ADF.Is it connecting like now? How the IT is doing the realtime processing means means
+14)What type of filter you have used in broze layer
+15)Suppose your SQL Server there are 100 records. So what is the data difference between your brochure layer and SQL Server?Rosalini Sahoo Is it the same 100 records is it being
+16)What what is the incremental load strategy here?
+17)OK, your data right now in branch layer, how it is moving to silver layer?What are the transformation you are using there?And what is the difference between bronze and silver? 
+18)read csv files retained to delta table(unity catalog) using Pyspark?
+19)update records in deltab table which mode has to use
+20)background how delta files stored
+21)banking system project using databricks 
+22)how to create dataframe from delta table
+23)silver to gold layer what transformations happening in azure databricks
+24)silver to gold layer what transformations happening on shipment tables in azure databricks
+25)input
+
+ID         NAME      SAL      DEPT
+
+11          AA         1000       A1
+5            BB           500       B3
+7            CC          1800      C11
+8            DD          900        B3
+9            EE            1250      D9
+
+DERIVED_COL
+logic:{IF SAL >=1000 THEN CLASS-B IF SAL >1500    THEN CLASS_A ELSE CLASS-C}
+
+output
+id name sal dept derived_col
+
+get derived column value based on logic using above input generate above outpu in sql 
+
+
+26)input
+
+ID         NAME      SAL      DEPT
+
+11          AA         1000       A1
+5            BB           500       B3
+7            CC          1800      C11
+8            DD          900        B3
+9            EE            1250      D9
+
+
+OUTPUT
+
+ID         NAME      SAL      DEPT		derived_col
+
+11          AA         1000       A1		CLASS-B
+5            BB           500       B3		CLASS_C
+7            CC          1800      C11		CLASS_A
+8            DD          900        B3		CLASS_C
+9            EE            1250      D9		CLASS_B
+
+WHEY ID 7 HAS CLASS_A PLEASE GIVE SUGGESTIFICATION ON SQL
+27)A
+
+1
+0
+1
+1
+
+
+B
+null
+1
+0
+1
+2
+
+
+count rows for  inner outer join,left outer ,right outer ,full outer joins
+28)emp 
+id name dept salary
+
+want name of employe greater than just previous employe using sql
+word="aaa agfakldna   dafdkahk   dfkjafhk dfahdfkl"
+
+
+word and occurenaces in above statement using python in dictornary format
+29)how to connect salesforce to azure data factory
+30)how to implement incremental extraction using azure data factory
+31)how to implement parametrize pipline in adf
+32)who calling the data from the raw layer. That job is an ADF job, or synapse job or database job.
+33)Sfdc have to pull data from sfdc in database. How will you do that in databricks 
+34) why do we need need to use DLT pipeline?
+35)And about how will DLT know there is a change?
+36)And how will you monitor a job running in databricks? 
+37)How what are you doing in the job UI what you doing in spark UI 
+38)insurance domain project explanation  using azure data factory
+39)design adf pipe line 100s of files in blob storage to bronze layer will load specific 10 files to bronze layer. 
+40)design adf pipe line 100s of files in blob storage to bronze layer will load specific 10 files to bronze layer. 
+only process files who changed in that 10 files we dont run files not changed
+41)data integrity checks and data quality checks while loading gold and silver layer in databricks
+42)Let's say there is a scenario where you know you. I ran some update to a data table OK and now I realise that there was some mistake and I want to revert back those updates. So how can you do that in delta table?
+43)Merge schema or write schema properties related to schema  in spark
+44) when does data shuffling happen and when that, you know becomes an issue?
+45)Can you tell me your let's say there is a situation where you know multiple jobs are running in your cluster causing the slowness but other you know point in a day your cluster is sitting idle, running only fewer jobs. So how will you incorporate this scenario to ensure the you know cost effectiveness?
+56)modes in databricks cluster
+57)You are given a CSV file containing customer orders:
+
+OrderID, CustomerID, OrderAmount, OrderDate
+
+1001, 200, 250.75, 2023-09-10
+
+1002, 201, 125.00, 2023-09-12
+
+1003, 202, 500.00, 2023-09-14
+
+1004, 200, 300.00, 2023-09-15
+
+1005, 202, 450.50, 2023-09-16
+ 
+Using PySpark, implement a window function to rank customers based on their total order amount. Additionally, filter only the top 2 customers with the highest total order amount
+58)What you can say distribution modes available while creating the tables.
+In synapse or dedicated
+59)how optimize command in databricks background
+60)When? Where does it come to rescue exactly the optimise command?
+61)can you tell me which are all the performance techniques you are used overall related to data bricks and pyspark.
+62)Can you tell me how this data skipping happens exactly?
+63)what is the maximum number of columns in data log for which statistics data is stored?
+64)Lynn, let's say even if I have no situation like my column is at 34th place then and I want to select the you know stats for that column. I want to include that in 32 list.Can we do that or how can we do that?
+65)You know, sequential activities, OK that these are connected running in sequence. I want to run third activity in spite of second activity subsets or fails. Can we implement such scenario? Is it possible?
+66)OK, so let's say I have. I'm making some changes to be data factory pipeline, existing pipeline, OK and now I am up the point where I'm I have not published the latest changes. OK now if I click on trigger now.So what will happen?
+67)Can you tell me if we can parameterize at Lync service level?
+68)Authentication methods available while connecting to.Or while creating the link services and connecting to other Azure services.
+69)So let's say if you use service principle and you want to access the you know application is in service principle. So which let's say ADL is you want to access from data bricks which rule you will assign to the service principle.We'll be able to access in read write mode
+70)So can you tell me what is the maximum number of nodes you know we can have in one self hosted integration on time?
+71)can we share one selfhosted integration runtime among the data factories in network?
+72)What is the desirable, you know, option to go ahead scale up or scale out?
+73)Can you tell me what is the difference between snowflakes demand * schema and what are the use cases for each of the schema when, as in when we'll use go for snowflakes demand when we'll go for star schema?
+74)can you call Snowflake schema 1/3 normal form or is it different?
+75)What are the DDL Commands?
+76)What are the difference b/w truncate and delete?
+77)what are the difference  between the primary key and unique key?
+78)what are optimization techniques in Pyspark?
+79)what is broad join?
+80)what is the liquid clustering?
+81)what are the use of RDD's?
+82)what is the use of broadcast variables?
+83)what is the what is cache?
+84)what is the latest pyspark version?
+85)what are the dapt query execution?
+86)what are the cluster optimizations?
+87)explain about spark Architecture?
+88)Say there are lot of ways to do by spark on azure
+     1.virtual machine install apache spark we can do
+     2.start HD insights cluster inside azure we can start spark inside 
+     3.azure synspsis support spark ..we can do Pyspark 
+     4.databrciks will support Pyspark
+why we are using databricks option rather than above 3 options? 
+89)do you need to migrate on premises SQL Server database. OK, there is an on premise SQL Server database and consider that one say a 3 TB for data size and there are stored procedures and triggers are there on premise as in this SQL Server DAT.
+      1.virual machine
+      2.azure sql
+      3.azure sql managed idetity
+      4.azure sql dw
+which ooption will prefer for migration ?
+90) Lot of such files are there and you need to store these files into into some storage location.
+           1.One it is Azure file storage. 
+           2.The second one I'm taking the Azure BLOB storage.
+           3.adls gen2
+      which one best option ?
+91)what are the  a rocket expression or a Lambda expression to find the square root of a number using scala ?
+92)      Table A:=  
+
+             Alpha
+             Beta
+             Gamma
+             delta.
+
+            Table B:=  
+            alpha
+            beta
+            gamma 
+            Omega.
+
+            ouput: 
+            Alpha
+            Beta
+            Gamma  
+            delta
+            alpha
+            beta
+            gamma
+            Omega.
+
+          how to get above output using sql?
+93)LSU list of subramaniam subramaniam each character divider OK what is L of -1 will return in python ?
+94)name = "Subramaniam"
+             L = list(name)
+            print(L)       # ['S', 'u', 'b', 'r', 'a', 'm', 'a', 'n', 'i', 'a', 'm']   
+            print(l[-1:2])
+           what it returns ?
+95)Write a solution to swap the seat id of every two consecutive students. If the number of students is odd, the id of the last student is not swapped.
+
+      Return the result table ordered by id in ascending order.
+
+      The result format is in the following example.
+
+
+Example 1:
+
+Input: 
+
+Seat table:
+
++----+---------+
+
+| id | student |
+
++----+---------+
+
+| 1  | Abbot   |
+
+| 2  | Doris   |
+
+| 3  | Emerson |
+
+| 4  | Green   |
+
+| 5  | Jeames  |
+
++----+---------+
+
+Output: 
+
++----+---------+
+
+| id | student |
+
++----+---------+
+
+| 1  | Doris   |
+
+| 2  | Abbot   |
+
+| 3  | Green   |
+
+| 4  | Emerson |
+
+| 5  | Jeames  |
+
++----+---------+
+
+Explanation: 
+
+Note that if the number of students is odd, there is no need to change the last one's seat ?
+96)query 1:
+
+SELECT 
+    s1.id,
+    COALESCE(s2.student, s1.student) AS student
+FROM
+    Seat s1
+LEFT JOIN
+    Seat s2
+    ON (s1.id % 2 = 1 AND s2.id = s1.id + 1) 
+    OR (s1.id % 2 = 0 AND s2.id = s1.id - 1)
+ORDER BY 
+    s1.id;
+
++++++++
+
+query 2:
+
+SELECT 
+    CASE 
+        WHEN id % 2 = 1 AND id + 1 <= (SELECT MAX(id) FROM Seat) THEN id + 1
+        WHEN id % 2 = 0 THEN id - 1
+        ELSE id
+    END AS id,
+    student
+FROM Seat
+ORDER BY id;
+
+
+suppose 1 million records what about query 1 performance and query 2 performance?.
+97)above input and output images ..generate second image using first image using sql
+ pice 2
+98)Yeah. So there may be some differences when you call it databrix notebook or set of databricks notebooks in ADF using pipelines, and then you're gonna have some differences if you have them as a data breaks workflow, right, so.
+99)What is the obstacle with chaining a bunch of notebook tasks if I'm using job cluster link services?
+100)  what's another approach I can do in ADF to try to make things run faster?
+101) Are are you familiar with the medallion architecture for data? so then How can I process the data into silver from bronze?What are some approaches I could do there?
+102)Yeah, there's a either a command I can use in Spark SQL or a function I can use in PY spark to clean up the directory of any unused files that are sitting there.
+Aka tombstone files from a delta table do you know what that command is?
+103)Being used to process all that data.So what I wanna do is I wanna chunk it down into smaller sizes and streaming. What's an approach that I can do in structured streaming specifically to reduce the input rate of the the data that I'm processing into silver?
+104)I'm using streaming.What can I do in streaming to make sure that I don't have late arriving events like that one going into my target table?
+105)print prime numbers range between 1 to 100 using sql? .
+106)gcp data engineer on banking domain project explanation?
+ADF pipeline running 30 mins last few months ..last one week running 1 hour.data volume not changed.what is the issue for loading 1 hour and what are things need to check?
+107)what are different ways to start adf pipeline?
+108)difference between schedule trigger and tumbling trigger?
+109)when to use schedule trigger and tumbling trigger and event based trigger in adf?tumbling window trigger usecases realtime project?event based trigger usecases realtime project?event based trigger without blob storage?trigger adf pipeline using rest api?
+110)how to design full load and incremental in azure data factory? ifference between incremental load and delta load and full load?how to optimize performance incremental load in adf ?
+111)how to manage schema drift in adf?
+112)make enterprise pipeline in adf without business requirement document?what unexpected events happens when adf pipeline?levels of error handling in adf?levels of error handling in adf?
+113)what  is the issue every day reading file one day not able read file using adf?file exists but unable to read how to do in adf
+114)self hosted integration runtime in adf?
+115)what are the azure databricks roles and responsibilities?
+116)Query to identify employees who have received a salary increase greater than 10% in the last three years using sql?
+117)pyspark optimization techniques?how to resolve issues in azure data factory pipeline?
+118) mploye_id employe_name manager_id employe_salary. find the second-highest salary under a specific manager using the following SQL query?
+119)customer
+============
+customerid customername 
+
+orders
+======
+orderid orderamount  customerid productid
+find customers who not ordered any product using sql? 
+120) order details
+        ======================
+      orderid productid quantity
+      customers
+     ================
+     customerid customername 
+     orders
+     =======
+    ordered customerid
+
+     find customer who orders more than 2 different products using pyspark?
+121)product
+===============
+sno productnames
+1   mobile,cable,laptop   
+2   mobile,laptop
+3   cable
+4   laptop,cable
+
+convert single row to multiple rows comma separated products using python?
+122)optimize techniques in t-sql query?
+123)mar 14th .. last 365 days is one partition
+       before mar 14 2034 is another partition
+       if i come tomorrow lates partition should contatin mar15 2024-mar 2025.. other partion should contain old data
+        how to implement above scenario using sql?
+124)input
+        emp id  mgrid 
+       100     105
+       105     106
+       106     107
+       output
+
+      empid managerid
+      105   level2
+      106   level1
+      107   level0
+     generate output table using input table using sql cte function?
+125) what is the window functions in Pyspark?
+126)how to read csv file using Pyspark?
+127)print("aaa")
+        how to store entair print statement in variable in python?
+128) string s="baaa"
+        how to find frequency of characters above statement  in python?
+129)can you explain experience on designing solutions for large data warehouses and working with cluster and parallel architecture?
+130)how have you effectively communcated to non techincal stake holders in your previous roles?
+131)suggest me best company names on cloud solutions on azure,aws,gcp?
+132)suggest me best company names providing trainings on cloud solutions on azure,aws,gcp?
+133)Write a SQL Query to find duplicate records in a delta table?
+134)what is the difference between the delta lake and data lake difference?.
+135) a/b/c/1.xlsxid	Val
+               1	a
+               1	b
+              1	c
+              2	d
+              3	a
+              3	c
+              4	f
+              5	v
+            display id,val which is having duplicates using sql?
+       b/c/d/2.xlsx
+       reading 2 different paths with same schema reading to single dataframe using Pyspark?
+136)	writing dataframe to sql server table using Pyspark??
+137)first table larger and second table smaller what type join used in Pyspark?
+        first table smaller and second table larger what type join used in Pyspark?
+        In PySpark, the type of join optimization depends on the size of the tables?
+138)what are the difference between difference between csv and parquet?
+139)      ID
+             1
+             2
+             3 
+            3 -- D
+            4
+            5
+     delete duplicates in sql in above table?
+140)          Gender
+           1    --Male
+           0    --Female
+           1    -- Male
+           1    --Male
+           0    --Female
+
+           0 means male 1 means female  convert using sql?
+141)            ID    SAL   Flag
+                    1    100    N
+                    2    200    N 
+                   3    100    N
+                   4    100    Y
+                   5    200    N
+                   6    400    N
+         Q)  salaries same flag should Y salaries different flag should N using sql ?
+         Q)  salaries value same flag should Y salairy value different flag should N compare current row with next row using sql 
+
+142) read one value from console even or odd we can verify using python?
+
+143)         *
+                ** 
+                ***
+                ****
+            print above format using python?
+144) How to add columns to existing dataframe using pyspark?
+145) How to  change existing column name to new column name using Pyspark?.
+146)  if age>30 add 1 year to age using Pyspark ?
+147) How to troubleshooting issues in  azure databricks?
+148) Find the 2nd highest basic from salary table  and that belongs to which employee(Emp FName)using window functions?
+149)scd type 2 in databricks Pyspark?.
+150) what are the difference between repartition vs coalesce in spark?
+151)explain about cluster configuration in databricks production?
+152)what are the difference between external table and managed table in hive?
+153)broadcast join more than 10mb table what is the solution?
+154)how to handle data skewness in spark?
+155)How to Increase Memory Allocation?
+156)how to handle out of memory issue in spark?
+157)How to fix gc overhead issue in spark?.
+158)what is the difference between reducebykey and groupbykey in spark?
+159)what are the difference between braodcast variables and accumulators in spark?
+160)input
+
+       a=[1,2,3,4,5,6,7,8,9]
+
+        ouput:
+ 
+       {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81} 
+      write python code to get above output using input? 
+161) employe table
+        id name salary managerid departmentid
+
+         3rd higest salary departmentwise using sql?
+162)  cdc deltab table using Pyspark ?
+163)  terraform aws provider examples?.
+164) what are the terraform components?.
+165) write the pyspark dataframe to the hive table on the hdfs path?
+166) write the pyspark dataframe to the hive table on the hdfs path
+
+        ouput file details are provided in the yaml/json file
+        config:
+       ouput path: p1/p2/p3/d1
+       db_name: edcore
+       tb_name: tb_acc
+167) when databricks creats spark job?
+168) DF1
+        userid, username
+        DF2
+       userid, pageid, timestamp, events
+       write a pyspark code to join two DF's then count events per user filter user who have no events?
+169) hbase use cases?
+170) hbase concepts list?
+171) spark sql or pyspark which one is better?
+172) bottleneck issues sql long running queries?
+173) how to filter data before join in sql?
+174) include filter condition before join in sql?
+175) how to avoid data skewness in spark?
+176) what is broadcast join in spark example?.
+177) catalyst optimizer in spark?
+178) get square of each digit in number(123) in sum it up as using python?
+
+        input: 123
+        ouput: 14
+179) create custom higher order function it will take another function as input using scala?
+180) how to solve diamond problem in scala?.
+181) pure function and impure functions in scala?
+182) pure function and impure functions in scala examples/
+183)  what is the external table in hive ?
+184) where to configure metadata for external tables in hive?
+185) difference between external and managed table in hive?
+186) how to get back deleted row in hive?.
+187)  Order		
+         ------------------------------		
+	id	sale_date	seller_id
+	1	01-03-2020	1
+	2	25-11-2020	5
+	3	03-05-2010	4
+	4	15-10-2022	1
+ 
+        Seller	
+       ---------------------------	
+	seller_id	name
+       1			abc
+       5			def
+       4			ghi
+  write sql query all sellers who didnot sell any sales in 2020?
+188) write python code for 2nd largest number from list without writing predefined functions?
+189)                 Order_id	customer_id	created_at	items
+                              1	1	1/12/2022	bread
+                              1	1	1/12/2022	biscuits
+                              1	1	1/12/2022	dal
+                              2	2	1/13/2022	oats
+                              2	2	1/13/2022	ragi
+                              3	2	1/14/2022	jam
+                              3	2	1/14/2022	potato chips
+                              4	1	1/14/2022	bread
+                              4	1	1/14/2022	jam
+                              4	1	1/14/2022	chocolate
+                              5	3	1/14/2022	barley
+                              5	3	1/14/2022	biscuits
+                              5	3	1/14/2022	rice
+                              6	1	1/14/2022	bread
+                              6	1	1/14/2022	jam
+                              7	3	1/14/2022	rice
+                              7	3	1/14/2022	wheat
+     write sql query /pyspark to get orderids when items are bread and jam brought together?
+190) how to mask pii data in python?
+191) what is flatten hierarchy in adf?
+192)  how to schedule cluster jobs in databricks?
+193) how to keep log when notebook fails in databricks cluster?
+194) how to remove duplicates in azure data factory to create pipeline?
+195) how to delete duplicate records in sql using cte?
+196)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              

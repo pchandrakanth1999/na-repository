@@ -1,0 +1,59 @@
+Conversation B/W candidate and Hr
+________________________________
+
+Hr    : Am I Speaking with Mani?
+
+Mani  : yes 
+
+Hr    : I called you regarding job oportunity with xxxx Company
+        are you looking for job change?
+
+Mani  :  yes Im looking for job change
+         Is it contractual(C2H) role or Perminent role ?
+
+Hr    : yes, it is full-time opportunity with xxxx Company  ( if she says contractual( C2H) role skip the call)
+
+Mani  : for which Location you are hiring for?
+
+Hr    : We have branches in Bangalore, Hyderabd, Pune    
+       ( choose the location based on your preferred location )
+
+Mani   : and Work Mode will be? Hybrid or , Work from Office or Remote?
+
+Hr     : Hybrid 
+
+Mani  : I'm ok with it
+
+Hr    :  How much Experience do u have?
+
+Mani  : I have overall 4 years of experience and relevant 3 years on Azure data Services  ( Based upon your resume )
+
+Hr    : Do u have hands on experience with ADF, ADB, Python, Pyspark, SQL, Data Warehouse, Azure Synapse etc..... 
+        ( these all come Under Azure Data Engineer )
+
+Mani  : yes, I do have 
+
+Hr    : when was your last working day?
+
+
+Mani  : I'm serving notice period within one week I'm going to release from the company
+
+hr    : Do u have all documents like offer letter, payslips, experience letter, relieving letter form 16 and pf statement?
+
+Mani  : I do have all Documents in my previous Company
+
+Hr    : wt was your last withdrawn ctc and expected ctc?
+
+Mani  : previous ctc was: 11LPA and Expected ctc 16 LPA ( tell them about your ctc bases upon Naukri)
+
+Hr    : can u tell me your interview availability timings?
+
+mani  : give me 2 min ill check my calendar and let u know  ( call to Nagendra or Manikanta to know about sir/mam  
+               availability timings
+
+Hr    : ok Thank you
+
+Mani   : Ok thank you
+
+
+
