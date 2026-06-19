@@ -1,0 +1,4 @@
+--Find highest revenue restaurant
+--Restaurant With Fastest Average Delivery
+--Find Customers Spending Above Average Order Amount
+--Top 2 Highest Orders Per Restaurant
