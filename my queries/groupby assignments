@@ -1,0 +1,32 @@
+1.I want avg salary from each dep in desc order
+
+select department, avg(salary) as avgsalary
+from employee_data 
+group by department 
+order by avgsalary desc
+
+
+2.I want total salary needs to give for each department
+
+select department, sum(salary)
+from employee_data
+group by department
+
+
+
+
+
+3.Department and city wise employeee
+
+select department,city,count(*)
+from employee_data
+group by department,city
+order by city asc
+
+
+
+my git code
+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
+
+
+
