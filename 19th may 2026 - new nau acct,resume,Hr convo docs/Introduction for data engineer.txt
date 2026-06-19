@@ -1,0 +1,65 @@
+Hi Everyone good afternoon
+
+my name is chandrakanth.
+i have total 5 years of experience, and my currently working with exner technologies
+
+i have worked on data factory , databrciks, logic app, keyvault, adls gen2 blob storage and synapse analtics also.
+
+created meta data driven pipeline in datafactory for data migration
+created pipeline for running data bricks notebook using triggers.
+created pipelines to move data from adls to azure sql database.
+
+
+in databricks i have cretaed workflows for running notebooks .
+created transformation codes for data using pyspark, python sql.
+confuring clusters in databricks.
+
+in recent project i was responsible for preparing data for spotfire consumption, and power bi.
+source - adls gen2 file format flat file csv
+data size - upto 100gb
+i created pyspark script to cllean and transform data according to requirement.
+and wrote data in parquet format in adls gen2.
+created data factory pipeline to move output data from adls gen2 to azure sql db.
+
+
+
+====================================================================================================
+dont apply
+
+1. Abzooba
+2. Accenture
+3. Accolite
+4. Altimetrik
+5. Capgemini
+6. CGI
+7. Cognizant
+8. Deloitte
+9. Diggibyte
+10. EY
+11. EPIKSO
+12. HCL Technologies
+13. Hexaware
+14. Incedo
+15. Intelliswift
+16. KPI Partners
+17. LTIMindtree
+18. PureSoftware
+19. PwC
+20. Synchron
+21. Tata Consultancy Services (TCS)
+22. Tech Mahindra
+23. TEKsystems
+24. Tiger Analytics
+25. Tredence
+26. UST
+27. ValueLabs
+28. ValueMomentum
+29. Wipro
+
+===================================================================================
+Meeting ID: 89801707783
+Passcode: 161552
+===================================================================================
+my git code
+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
+
